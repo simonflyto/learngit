@@ -1,0 +1,7 @@
+$ git config --global user.name "Simon Yeh"
+$ git config --global user.email "simonflyto@163.com";
+$ mkdir learngit
+$ cd learngit/
+$ git init
+Initialized empty Git repository in C:/Users/admin/learngit/.git/
+
