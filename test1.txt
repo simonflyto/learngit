@@ -46,3 +46,11 @@ $ git push -u origin master
 
 $ git push origin master
 
+git clone git@github.com:simonflyto/learngit.git
+
+$ git checkout -b dev
+Switched to a new branch 'dev'
+
+admin@SHT20170904 MINGW64 ~/learngit (dev)
+
+
