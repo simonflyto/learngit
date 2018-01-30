@@ -5,3 +5,10 @@ $ cd learngit/
 $ git init
 Initialized empty Git repository in C:/Users/admin/learngit/.git/
 
+$ git add test1.txt
+
+
+$ git commit -m "write a test1 file"
+[master (root-commit) e4e9fca] write a test1 file
+ 1 file changed, 7 insertions(+)
+ create mode 100644 test1.txt
