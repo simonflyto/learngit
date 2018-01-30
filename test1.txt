@@ -12,3 +12,32 @@ $ git commit -m "write a test1 file"
 [master (root-commit) e4e9fca] write a test1 file
  1 file changed, 7 insertions(+)
  create mode 100644 test1.txt
+ $ git status
+
+ 
+ $ git diff test1.txt
+
+ 
+$git log
+
+$ git add test1.txt
+$git commit -m "APPEND GPL TO test1.txt"
+
+$ git reset --hard HEAD^
+
+$ git reset --hard HEAD~10
+
+$ git reset --hard 91a8293e
+HEAD is now at 91a8293e append GPL
+
+$ git reflog
+
+$ git checkout -- test1.txt  ##丢弃工作区修改
+
+$git reset head test1.txt  ##回退到暂存区，非回退版本
+
+$ git rm test2.txt
+
+$ git commit -m "remove test2 point"
+
+
