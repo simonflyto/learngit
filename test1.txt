@@ -40,4 +40,9 @@ $ git rm test2.txt
 
 $ git commit -m "remove test2 point"
 
+$ git remote add origin git@github.com:simonflyto/learngit.git
+
+$ git push -u origin master
+
+$ git push origin master
 
