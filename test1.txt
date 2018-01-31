@@ -58,3 +58,7 @@ $ git branch
   master
 
 
+$ git branch -d dev
+Deleted branch dev (was fec145a)
+
+$git log --graph --pretty=oneline --abbrev-commit
