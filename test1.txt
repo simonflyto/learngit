@@ -58,3 +58,31 @@ $ git branch
   master
 
 
+$ git branch -d dev
+Deleted branch dev (was fec145a)
+
+$git log --graph --pretty=oneline --abbrev-commit
+
+$ git merge --no-ff -m "merge with no-ff" dev
+
+$ git checkout dev
+
+$ git stash
+
+$git checkout master
+$git branch -b issue-101
+$git add XXXX
+$git commit -m "XXXX"
+
+$git checkout master
+$git merge --no-ff -m "merged but fix 101" issue-101
+$git branch -d issue-101
+
+$git checkout dev
+$git status
+$git stash list
+
+$git stash pop ## --> $git stash apply  ,git stash drop
+$git stash list
+
+
